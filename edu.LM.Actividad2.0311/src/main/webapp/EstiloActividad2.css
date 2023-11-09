@@ -1,0 +1,48 @@
+@charset "UTF-8";
+.Contenedor{
+	background-color: grey;
+	width: 80%;
+    max-width: 950px;
+    border: 1px solid red;
+    color:white
+}
+.Contenedor__item{
+	color:blue
+}
+
+.Contenedor__item--blanco{
+	
+	color:white;
+	text-align: left;
+	margin-bottom: -0.5em;
+}
+
+.Contenedor__cabecera{
+	font-family: Verdana, sans-serif;
+    color: red;
+}
+
+
+.logotipo{
+	font-size: 2em;
+    margin-bottom: 1.5em;
+}
+
+
+.enlaces{	
+	margin-bottom: 1.5em;
+	text-decoration:none;
+	list-style-type: none; 	 
+	color: blue
+	}
+	
+.enlances__li{
+	display:inline;	
+	padding-left:5px;
+    padding-right:5px;
+     }   
+
+.enlaces__item:hover{
+	color: black; 
+    
+}
